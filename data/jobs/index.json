@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "front-stiffeners",
+  "prompt": "Weld all front stiffeners, 6 mm fillet",
+  "planned": 18,
+  "requested": 18,
+  "verified": true,
+  "ursim": "passed"
+ },
+ {
+  "slug": "stiffener-2-tr",
+  "prompt": "Ön taraftaki 2. takviyeyi 8 mm, 2 paso kaynakla",
+  "planned": 6,
+  "requested": 6,
+  "verified": true,
+  "ursim": "pending"
+ },
+ {
+  "slug": "both-sides",
+  "prompt": "Weld every stiffener on both sides, 6 mm",
+  "planned": 26,
+  "requested": 36,
+  "verified": true,
+  "ursim": "pending"
+ }
+]

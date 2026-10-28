@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weldra Arc — demo</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/" } }
+</script>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="mark"></span><b>Weldra</b><span class="product">Arc</span></div>
+  <div class="tagline">Describe the weld. The robot programs itself.</div>
+  <div class="pill sim">Recorded demo · UR10e cell twin · simulation</div>
+</header>
+
+<main>
+  <aside id="side">
+    <section class="card">
+      <h3>Recorded jobs</h3>
+      <div class="hint" style="margin:0 0 8px">Each job below was typed as a prompt, planned by Weldra and verified. This page replays the recorded results in your browser.</div>
+      <div id="jobs"></div>
+    </section>
+
+    <section class="card" id="ursimCard" hidden>
+      <h3>Run on UR's controller (URSim 5.26)</h3>
+      <div id="ursim"></div>
+    </section>
+
+    <section class="card" id="progressCard" hidden>
+      <h3>Agent</h3>
+      <ol id="steps"></ol>
+    </section>
+
+    <section class="card" id="checksCard" hidden>
+      <h3>Checked before anything moves</h3>
+      <div id="explain" class="explain"></div>
+      <div class="grid" id="checks"></div>
+      <div class="note">Checks run in the cell twin; they are not a physical safety device.</div>
+    </section>
+
+    <section class="card grow">
+      <h3>Seams found <span id="seamCount" class="muted"></span></h3>
+      <div id="seams"></div>
+    </section>
+  </aside>
+
+  <section id="stage">
+    <div id="view"></div>
+    <div class="legend">
+      <span><i style="background:#5ec8ff"></i>seam</span>
+      <span><i style="background:#ffd23f"></i>selected</span>
+      <span><i style="background:#3ddc97"></i>planned</span>
+      <span><i style="background:#ff5d5d"></i>not reachable</span>
+      <span><i style="background:#ff7a1a"></i>weld bead</span>
+    </div>
+    <div class="hud" id="hud"></div>
+    <div class="transport">
+      <button id="play" class="ghost" disabled>▶</button>
+      <button id="follow" class="ghost" title="Camera follows the torch">Follow torch</button>
+      <select id="speed"><option>1</option><option>4</option><option selected>8</option><option>16</option><option>32</option></select>
+      <input id="scrub" type="range" min="0" max="1000" value="0" disabled>
+      <span id="clock">0.0 / 0.0 s</span>
+    </div>
+    <div id="code" class="code" hidden>
+      <div class="tabs">
+        <button data-tab="urscript" class="tab on">URScript (UR e-Series)</button>
+        <button data-tab="fanuc" class="tab">FANUC TP (draft)</button>
+        <span class="spacer"></span>
+        <button id="download" class="ghost">Download</button>
+        <button id="codeToggle" class="ghost">Hide</button>
+      </div>
+      <pre id="codeText"></pre>
+    </div>
+  </section>
+</main>
+<footer>Weldra · prompt-to-weld robot programming · simulation and URSim results, not a physical robot </footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
