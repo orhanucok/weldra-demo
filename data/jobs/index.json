@@ -13,7 +13,7 @@
   "planned": 6,
   "requested": 6,
   "verified": true,
-  "ursim": "pending"
+  "ursim": "passed"
  },
  {
   "slug": "both-sides",
@@ -21,6 +21,6 @@
   "planned": 26,
   "requested": 36,
   "verified": true,
-  "ursim": "pending"
+  "ursim": "passed"
  }
 ]

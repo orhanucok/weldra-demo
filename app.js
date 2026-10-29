@@ -186,7 +186,7 @@ function onPick(e) {
 
 function kpi(k, v, cls = "") { return `<div class="kpi"><div class="k">${k}</div><div class="v ${cls}">${v}</div></div>`; }
 
-const URSIM = { "front-stiffeners": "job1" };
+const URSIM = { "front-stiffeners": "job1", "stiffener-2-tr": "job2", "both-sides": "job5" };
 
 async function loadJob(slug, prompt) {
   document.querySelectorAll(".job").forEach((b) => b.classList.toggle("on", b.dataset.slug === slug));

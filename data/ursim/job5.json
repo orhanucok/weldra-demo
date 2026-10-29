@@ -1,0 +1,276 @@
+{
+  "script": "out/job5_weldra_dryrun.script",
+  "samples": 125275,
+  "run_time_s": 1092.5,
+  "program_finished": true,
+  "controller_errors": [],
+  "planned_cycle_s": 830.0,
+  "safety_events": [],
+  "final_safety": "Safetystatus: NORMAL",
+  "final_robotmode": "Robotmode: RUNNING",
+  "weld_waypoints_reached": "52/52",
+  "max_weld_waypoint_err_rad": 3e-05,
+  "waypoints": [
+    {
+      "kind": "weld start",
+      "seam": "S24",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S24",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S23",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S23",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S21",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S21",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S22",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S22",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S20",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S20",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S19",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S19",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S13",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S13",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S14",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S14",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S25",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S25",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S26",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S26",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S36",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S36",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S35",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S35",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S28",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S28",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S34",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S34",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S33",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S33",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S31",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S31",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S32",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S32",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S08",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S08",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S07",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S07",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S11",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S11",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S12",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S12",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S10",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S10",
+      "min_err_rad": 3e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S09",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S09",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S03",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S03",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S02",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S02",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S01",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S01",
+      "min_err_rad": 1e-05
+    }
+  ],
+  "ursim_version": "URSoftware 5.26.3.140631 (Oct 12 2026)"
+}

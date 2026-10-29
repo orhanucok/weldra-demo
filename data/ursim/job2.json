@@ -1,0 +1,136 @@
+{
+  "script": "out/job2_weldra_dryrun.script",
+  "samples": 87119,
+  "run_time_s": 748.0,
+  "program_finished": true,
+  "controller_errors": [],
+  "planned_cycle_s": 354.1,
+  "safety_events": [],
+  "final_safety": "Safetystatus: NORMAL",
+  "final_robotmode": "Robotmode: RUNNING",
+  "weld_waypoints_reached": "24/24",
+  "max_weld_waypoint_err_rad": 2e-05,
+  "waypoints": [
+    {
+      "kind": "weld start",
+      "seam": "S21",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S21",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S21",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S21",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S22",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S22",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S22",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S22",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S24",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S24",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S24",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S24",
+      "min_err_rad": 2e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S23",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S23",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld start",
+      "seam": "S23",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S23",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S19",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S19",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S19",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S19",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S20",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S20",
+      "min_err_rad": 1e-05
+    },
+    {
+      "kind": "weld start",
+      "seam": "S20",
+      "min_err_rad": 0.0
+    },
+    {
+      "kind": "weld end",
+      "seam": "S20",
+      "min_err_rad": 1e-05
+    }
+  ],
+  "ursim_version": "URSoftware 5.26.3.140631 (Oct 12 2026)"
+}
